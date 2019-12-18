@@ -1,2 +1,3 @@
-# go-reverse-shell
-A simple reverse shell written in Go.
+# go-shells
+
+Simple reverse and bind shells written in Go.
