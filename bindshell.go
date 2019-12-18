@@ -26,7 +26,7 @@ func handleConnection(connection net.Conn) {
 
 func main() {
     var listenPort string = "4444"
-    listener, err := net.Listen("tcp", ":" + listenPort) //starts a listener on tcp port 4444
+    listener, err := net.Listen("tcp", "localhost:" + listenPort) //starts a listener on tcp port 4444
 
     if err != nil {
         fmt.Printf("An error occurred while initializing the listener on %v: %v\n", listenPort, err)
