@@ -52,4 +52,4 @@ nc -lv 4444
 
 Now whenever the reverse shell is run from the target machine, you will receive a connection to your listening port on your local machine and be granted a bash shell!
 
-*Note: This project is for educational purposes only. I do not expect it to be perfect, but if you do have any questions about it please feel free to ask. You can reach me through github (I think?) or just send me an email at nineofpine@protonmail.com*
+*Note: This project is for educational purposes only. I do not expect it to be perfect. If you do have any questions about it please feel free to ask. You can reach me through github (I think?) or just send me an email at nineofpine@protonmail.com*
