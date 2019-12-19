@@ -42,13 +42,6 @@ func main() {
         }
 
         go handleConnection(connection) //go handle the connection concurrently in a goroutine
-
-        //example code that would close the connection after 5 seconds
-        /*time.Sleep(5 * time.Second)
-        err = connection.Close()
-        if err != nil {
-            fmt.Println("Something went wrong when closing the connection:", err)
-        }*/
     }
 }
 
