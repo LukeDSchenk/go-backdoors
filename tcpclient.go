@@ -1,6 +1,6 @@
 package main
 
-/* A simple tcp client. */
+/* A simple tcp client. This is nowhere near functional or complete, I am simply keeping it here for now.*/
 
 import (
     "fmt"
